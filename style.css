@@ -1,0 +1,192 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common fonts */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    color: #ffffff;
+}
+p{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+
+/* ...........section-1................ */
+
+.section-1{
+    display: flex;
+    background-color: #161616;
+    background-size: cover;
+    width: 80%;
+    height: 500px;
+    border-radius: 30px;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: 700px;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 21px;
+    margin-bottom: 40px
+}
+
+.headline{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    line-height: 1.5cm;
+    }
+ 
+.head-img img{
+    position: absolute;
+    width: 25%;
+    padding-right: 30px;
+    margin-left: 313px;
+    margin-top: 15px;
+
+}
+.link-button{
+    text-decoration: none;
+    background-color: red;
+    padding: 4px 16px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 150;
+}
+.head-text a:hover{
+    background-color: tomato;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+/* ..............section-2 match styel........... */
+
+.main{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-count: 24px;
+    column-gap: 15px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.section-2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.menubar {
+    width: 250px;
+    height: 270px;
+    background: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.menubar > button {
+    margin-bottom: 30px;
+}
+
+button.up-coming-match {
+    width: 190px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button.all-group {
+    width: 190px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button.blog {
+    width: 190px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: red;
+}
+.section-2{
+    display: flex;
+}
+.match .match-banner img{
+    width: 224px;
+    height: 104px;
+    border-color: #E8E8E8;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+.match-info{
+    display: flex;
+    align-items: center;
+}
+.match-detail{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+/* ........section -3 footer.......... 
+.....................................*/
+
+.section-3{
+    width: 80%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.menu > a {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    margin-left: 21px;
+}
+.footer{
+    background-color: #161616;
+    font-size: 15px;
+    text-align: center;
+    padding: 30px;
+
+}
+.menu{
+    justify-content: flex-end;
+    font-size: 15px;
+} 
+
+/* Media */
+
+/* @media screen and(max-width: 600px){
+    .menu{
+        flex-direction: row;
+        padding: 10px;
+    }
+    .menu a{
+        background-color: #161616;
+        margin: 10px 0;
+        text-align: center;
+        border-radius: 10px;
+    }
+} */
+/* ...........html-2............... */
+.banner{
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+}
