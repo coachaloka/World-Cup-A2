@@ -16,7 +16,7 @@ h1{
     color: #ffffff;
 }
 p{
-    font-size: 10px;
+    font-size: 12px;
     line-height: 20px;
 }
 
@@ -28,9 +28,9 @@ p{
     background-color: #161616;
     background-size: cover;
     width: 80%;
-    height: 500px;
+    height: 350px;
     border-radius: 30px;
-    padding: 20px;
+    padding: 15px;
     color: #ffffff;
     font-weight: 700px;
     font-size: 25px;
@@ -43,14 +43,15 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 1fr );
     line-height: 1.5cm;
+    margin-left: 60px;
     }
  
 .head-img img{
     position: absolute;
-    width: 25%;
+    width: 17%;
     padding-right: 30px;
-    margin-left: 313px;
-    margin-top: 15px;
+    margin-left: 180px;
+    margin-top: 29px;
 
 }
 .link-button{
@@ -58,6 +59,7 @@ p{
     background-color: red;
     padding: 4px 16px;
     border-radius: 5px;
+    font-size: 20px;
     color: #ffffff;
     font-weight: 150;
 }
@@ -70,42 +72,52 @@ p{
 
 /* ..............section-2 match styel........... */
 
-.main{
-    display: grid;
-    box-sizing: border-box;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    column-count: 24px;
-    column-gap: 15px;
-    justify-content: center;
-    margin-bottom: 40px;
-}
 .section-2{
     width: 80%;
     display: flex;
     justify-content: center;
 }
 
-.menubar {
+.main{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main> .class-1{
     width: 250px;
     height: 270px;
-    background: #161616;
+    box-sizing: border-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menubar{
+    width: 250px;
+    height: 260px;
+    background-color: #161616;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-right: 15px;
+    font-weight: 400;
 }
 .menubar > button {
-    margin-bottom: 30px;
+    margin: 15px;
 }
-
-button.up-coming-match {
+.up-coming-match {
     width: 190px;
     height: 40px;
     border-radius: 10px;
     font-size: 15px;
+    text-decoration: none;
+    
 }
 
 button.all-group {
@@ -123,9 +135,6 @@ button.blog {
     color: white;
     background-color: red;
 }
-.section-2{
-    display: flex;
-}
 .match .match-banner img{
     width: 224px;
     height: 104px;
@@ -133,26 +142,51 @@ button.blog {
     border-radius: 5px;
     margin-bottom: 0px;
 }
-.match-info{
+.class-1{
+    width: 250px;
+    height: 225px;
+    box-sizing: border-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    text-align: center;
+}
+.match-banner{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    
 }
 .match-detail{
     margin-bottom: 30px;
     margin-top: 20px;
     font-size: 10px;
-}
+    
 
-/* ........section -3 footer.......... 
+}
+.match-time{
+    display: flex;
+    justify-content: center;
+}
+.secton-3{
+    margin-bottom: 40px;
+
+}
+.view{
+    text-align: center;
+    margin-top: 20px;
+}
+/* ........section -4 footer.......... 
 .....................................*/
 
-.section-3{
+.section-4{
     width: 80%;
     height: 200px;
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
 }
-.menu > a {
+.menu >a{
     display: inline-block;
     margin-top: 30px;
     text-decoration: none;
@@ -163,30 +197,19 @@ button.blog {
     font-size: 15px;
     text-align: center;
     padding: 30px;
-
 }
-.menu{
-    justify-content: flex-end;
-    font-size: 15px;
-} 
 
-/* Media */
+.social-icon >button{
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+    padding: 4px, 16px;
+}    
+
 
 /* @media screen and(max-width: 600px){
-    .menu{
-        flex-direction: row;
-        padding: 10px;
-    }
-    .menu a{
-        background-color: #161616;
-        margin: 10px 0;
-        text-align: center;
-        border-radius: 10px;
-    }
-} */
-/* ...........html-2............... */
-.banner{
-    display: inline-block;
-    font-size: 15px;
-    text-align: center;
-}
+    body{
+        width: 100%;
+        border: 1px solid red;
+    } */
+
