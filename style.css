@@ -206,10 +206,38 @@ button.blog {
     padding: 4px, 16px;
 }    
 
+*{
+    box-sizing: border-box;
+}
+ 
+/* Extra small devices (phones, 600px and down) */
 
-/* @media screen and(max-width: 600px){
+@media only screen and (max-width: 600px) {
+body{
+    background-color: pink;
+}
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+body{
+    background-color: paleturquoise;
+}
+}
+  
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
     body{
-        width: 100%;
-        border: 1px solid red;
-    } */
+        background-color: palegoldenrod;
+    }
+    }
+    
+  
+
+
+
 
